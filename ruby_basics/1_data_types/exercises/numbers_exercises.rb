@@ -25,20 +25,20 @@ end
 
 def float_division(a, b)
   # return the result of dividing a by b as a float, rather than an integer
-  10.0 / 3
+  a.to_f / b
 end
 
 def string_to_number(string)
   # return the result of converting a string into an integer
-  "102".to_i
+  string.to_i
 end
 
 def even?(number)
   # return true if the number is even (hint: use integer's even? method)
-  22.even?
+  number.even?
 end
 
 def odd?(number)
   # return true if the number is odd (hint: use integer's odd? method)
-  23.odd?
+  number.odd?
 end
